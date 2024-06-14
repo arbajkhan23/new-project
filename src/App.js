@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.scss';
 
 function App() {
@@ -20,12 +20,18 @@ function App() {
     //   </header>
     // </div>
     
-    <div className='flex '>
-<div className='box-1 mt-3 m-3'>
+    <div className='flex justify-between flex-wrap mx-4 gap-y-3'>
+<div className='sm:w-4/12 w-full px-4'>
+<div className='box-1'></div>
 </div>
-<div className='box-1 mt-3  mx-3'>
+<div className='sm:w-4/12 w-full px-4'>
+<div className='box-1'>
+
 </div>
-<div className='box-1 mt-3  mx-3'>
+</div>
+<div className=' sm:w-4/12 w-full px-4'>
+<div className='box-1'>
+</div>
 </div>
     </div>
   );
